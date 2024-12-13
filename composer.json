@@ -1,0 +1,20 @@
+{
+  "name": "alaureati-enerds/replio",
+  "description": "Utility Library for JSON responses",
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Replio\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrea Laureati",
+      "email": "a.laureati@enerds.it"
+    }
+  ]
+}
