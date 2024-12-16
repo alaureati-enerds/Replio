@@ -50,7 +50,7 @@ class Replio
         $this->response = [
             'success' => false,
             'message' => '',
-            'data' => null,
+            'data' => [],
             'errors' => [],
         ];
         $this->httpStatus = self::HTTP_OK;
