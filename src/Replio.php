@@ -54,6 +54,7 @@ class Replio
             'errors' => [],
         ];
         $this->httpStatus = self::HTTP_OK;
+        $this->headers = [];
     }
 
     /**
